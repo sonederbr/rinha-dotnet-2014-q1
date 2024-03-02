@@ -12,6 +12,6 @@ Submissão feita com:
 - `nginx` como load balancer
 - `postgresql` como banco de dados
 - `dotnet core 8` `C#` para api usando `minimal apis`
-- [repositório da api](https://github.com/sonederbr/rinha-de-backend-2024-q1)
+- [repositório da api](https://github.com/sonederbr/rinha-dotnet8)
 
-[@sonederdev](https://twitter.com/zanfranceschi) @ twitter
+[@sonederdev](https://twitter.com/sonederdev) @ twitter

@@ -16,8 +16,8 @@ services:
       resources:
         limits:
           cpus: "0.75"
-          memory: "390MB"
-          
+          memory: "415MB"
+  
   api01: &api
     image: sonederbr/rinha-backend-dotnetcore8-24q1:latest
     hostname: api01
@@ -35,14 +35,15 @@ services:
       resources:
         limits:
           cpus: "0.30"
-          memory: "70MB"
-          
+          memory: "60MB"
+  
   api02:
     <<: *api
     hostname: api02
     ports:
       - "8082:8080"
-
+  
+  
   nginx:
     image: nginx:latest
     volumes:
@@ -57,7 +58,7 @@ services:
       resources:
         limits:
           cpus: "0.15"
-          memory: "20MB"
+          memory: "15MB"
 
 networks:
   default:
